@@ -4,12 +4,12 @@ function minhaFuncao(param) {
   // bloco de código
 }
 
-minhaFuncao("param")
+//minhaFuncao("param")
 
 // expressão de função
 
 const soma = function(num1, num2) { return num1 + num2 }
-console.log(soma(1, 1))
+console.log(soma(20, 100))
 
 // diferença principal: HOISTING
 // funções e var são "listadas" no topo do arquivo.
@@ -20,5 +20,6 @@ function apresentar() {
   return "olá";
 }
 
-console.log(somaOutroExemplo(1, 1))
 const somaOutroExemplo = function(num1, num2) { return num1 + num2 }
+console.log(somaOutroExemplo(2, 2))
+

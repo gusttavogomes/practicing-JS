@@ -16,6 +16,9 @@ const somaNumerosPequenos = (num1, num2) => {
   }
 }
 
+//console.log("Gus");
+//console.log (soma(20, 9));
+
 // Hoisting: arrow function se comporta como expressão
 
 // operador maior ou igual que

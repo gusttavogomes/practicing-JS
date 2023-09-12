@@ -1,5 +1,5 @@
 const idadeMinima = 18;
-const idadeCliente = 16;
+let idadeCliente = 16;
 
 if (idadeCliente >= idadeMinima) {
   console.log("cerveja")
@@ -8,4 +8,6 @@ if (idadeCliente >= idadeMinima) {
 }
 
             //condição                    //true     //false
+console.log(idadeCliente >= idadeMinima ? "cerveja" : "suco")
+idadeCliente = 21;
 console.log(idadeCliente >= idadeMinima ? "cerveja" : "suco")
